@@ -18,5 +18,5 @@ def emma():
 
 @check50.check(compiles)
 def rodrigo():
-    """responds to name Rodrigo"""
+    """responds to name MF-Rodrigo"""
     check50.run("./hello").stdin("Rodrigo").stdout("Rodrigo").exit()
