@@ -13,10 +13,6 @@ def compiles():
     # Check if student code compiles
     check50.c.compile("half.c", lcs50=True)
     
-    # Rename main function to "distro_main"
-    half = re.sub("int\s+main", "int distro_main", open("half.c").read())
-
-    
 @check50.check(compiles)
 def encrypts_a_as_b():
     """Prints correct with 12.50 bill, 8.875\% tax, 20\% tip"""
