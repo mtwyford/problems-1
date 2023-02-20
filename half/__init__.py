@@ -16,5 +16,5 @@ def compiles():
 @check50.check(compiles)
 def encrypts_a_as_b():
     """Prints correct with 12.50 bill, 8.875\% tax, 20\% tip"""
-    check50.run("./half").stdin(12.50, 8.875, 20).stdout("You will owe $\i*8.17 each!, "You will owe $8.17 each!\n").exit(0)
+    check50.run("./half").stdin(12.50, 8.875, 20).stdout("You will owe $\i*8.17 each!", "You will owe $8.17 each!\n").exit(0)
 
